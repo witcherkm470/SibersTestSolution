@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTestSolution.Domain", "SibersTestSolution.Domain\SibersTestSolution.Domain.csproj", "{33586A3A-660E-4709-AC8F-2E61CC10FE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTestSolution.Infrastructure", "SibersTestSolution.Infrastructure\SibersTestSolution.Infrastructure.csproj", "{6023F54F-074F-49D4-A304-2375163B346D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTestSolution.Api", "SibersTestSolution.Api\SibersTestSolution.Api.csproj", "{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{B044D84F-7DBA-4E63-8DC4-4F62B70D69DF}"
+	ProjectSection(SolutionItems) = preProject
+		appsettings.json = appsettings.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTestSolution.Application", "SibersTestSolution.Application\SibersTestSolution.Application.csproj", "{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{D809EF59-9C9C-4DE3-9BB4-E240528D571B}"
+	ProjectSection(SolutionItems) = preProject
+		SibersTestSolution.Web\index.html = SibersTestSolution.Web\index.html
+		SibersTestSolution.Web\package.json = SibersTestSolution.Web\package.json
+		SibersTestSolution.Web\README.md = SibersTestSolution.Web\README.md
+		SibersTestSolution.Web\src\api.ts = SibersTestSolution.Web\src\api.ts
+		SibersTestSolution.Web\src\App.tsx = SibersTestSolution.Web\src\App.tsx
+		SibersTestSolution.Web\src\main.tsx = SibersTestSolution.Web\src\main.tsx
+		SibersTestSolution.Web\src\styles.css = SibersTestSolution.Web\src\styles.css
+		SibersTestSolution.Web\src\types.ts = SibersTestSolution.Web\src\types.ts
+		SibersTestSolution.Web\tsconfig.app.json = SibersTestSolution.Web\tsconfig.app.json
+		SibersTestSolution.Web\tsconfig.json = SibersTestSolution.Web\tsconfig.json
+		SibersTestSolution.Web\tsconfig.node.json = SibersTestSolution.Web\tsconfig.node.json
+		SibersTestSolution.Web\vite.config.ts = SibersTestSolution.Web\vite.config.ts
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SibersTestSolution.Tests", "SibersTestSolution.Tests\SibersTestSolution.Tests.csproj", "{B23B0C1D-1344-4F6C-9932-A5C88B40B541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Debug|x64.Build.0 = Debug|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Debug|x86.Build.0 = Debug|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Release|x64.ActiveCfg = Release|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Release|x64.Build.0 = Release|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Release|x86.ActiveCfg = Release|Any CPU
+		{33586A3A-660E-4709-AC8F-2E61CC10FE75}.Release|x86.Build.0 = Release|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Debug|x64.Build.0 = Debug|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Debug|x86.Build.0 = Debug|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Release|x64.ActiveCfg = Release|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Release|x64.Build.0 = Release|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Release|x86.ActiveCfg = Release|Any CPU
+		{6023F54F-074F-49D4-A304-2375163B346D}.Release|x86.Build.0 = Release|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Debug|x64.Build.0 = Debug|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Debug|x86.Build.0 = Debug|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Release|x64.ActiveCfg = Release|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Release|x64.Build.0 = Release|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Release|x86.ActiveCfg = Release|Any CPU
+		{DA648F22-7BA6-4B8F-BE66-1FDF284AC8AB}.Release|x86.Build.0 = Release|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Release|x64.Build.0 = Release|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC8DC505-AA85-4BFE-9C6B-B7CA98F4C6AF}.Release|x86.Build.0 = Release|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Debug|x64.Build.0 = Debug|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Debug|x86.Build.0 = Debug|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Release|x64.ActiveCfg = Release|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Release|x64.Build.0 = Release|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Release|x86.ActiveCfg = Release|Any CPU
+		{B23B0C1D-1344-4F6C-9932-A5C88B40B541}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

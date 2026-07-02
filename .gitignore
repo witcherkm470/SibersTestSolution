@@ -1,0 +1,33 @@
+# Build outputs
+bin/
+obj/
+dist/
+
+# Frontend dependencies
+node_modules/
+
+# IDE and user files
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local runtime files
+.logs/
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded project documents
+App_Data/
+SibersTestSolution.Api/App_Data/
+
+# Codex local workspace data
+.agents/
+.codex/
+
+# OS files
+Thumbs.db
+Desktop.ini
