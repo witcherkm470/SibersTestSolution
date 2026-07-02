@@ -1,6 +1,7 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SibersTestSolution.Api.Validation;
 using SibersTestSolution.Application.DI;
 using SibersTestSolution.Application.Validation.Employees;
@@ -57,6 +58,12 @@ builder.Services.ConfigureApplicationCookie(options =>
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<SibersTestSolutionDbContext>();
+    await dbContext.Database.MigrateAsync();
+}
 
 await app.Services.SeedIdentityAsync();
 

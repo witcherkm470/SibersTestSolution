@@ -1,0 +1,28 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: SibersTestSolution.Api/Dockerfile
+    container_name: sibers-test-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__SibersTestSolutionDb: Data Source=/data/sibers-test.db
+      ProjectDocuments__StoragePath: /data/project-documents
+    ports:
+      - "5000:8080"
+    volumes:
+      - sibers-data:/data
+
+  web:
+    build:
+      context: .
+      dockerfile: SibersTestSolution.Web/Dockerfile
+    container_name: sibers-test-web
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+
+volumes:
+  sibers-data:
