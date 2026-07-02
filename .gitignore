@@ -1,29 +1,82 @@
-# Build outputs
+# =========================
+# Build artifacts
+# =========================
 bin/
 obj/
-dist/
 
-# Frontend dependencies
-node_modules/
-
-# IDE and user files
-.vs/
+# =========================
+# Rider / IntelliJ
+# =========================
 .idea/
-*.user
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
-# Local runtime files
-.logs/
-*.db
-*.db-shm
-*.db-wal
-
-# Uploaded project documents
-App_Data/
-SibersTestSolution.Api/App_Data/
-
+# =========================
 # OS files
+# =========================
+.DS_Store
 Thumbs.db
-Desktop.ini
+
+# =========================
+# Logs
+# =========================
+.logs/
+*.log
+
+# =========================
+# Frontend
+# =========================
+node_modules/
+/dist/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+packages/
+
+# =========================
+# Test results
+# =========================
+TestResults/
+
+# =========================
+# Publish output
+# =========================
+publish/
+
+# =========================
+# ReSharper
+# =========================
+_ReSharper*/
+*.DotSettings.user
+
+# =========================
+# Database / local files
+# =========================
+*.db
+*.sqlite
+.docker/postgres/data/
+
+# =========================
+# Rider HTTP client
+# =========================
+httpRequests/
+
+# =========================
+# Misc
+# =========================
+*.cache
+*.tmp
