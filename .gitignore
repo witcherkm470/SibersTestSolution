@@ -24,10 +24,6 @@ node_modules/
 App_Data/
 SibersTestSolution.Api/App_Data/
 
-# Codex local workspace data
-.agents/
-.codex/
-
 # OS files
 Thumbs.db
 Desktop.ini
